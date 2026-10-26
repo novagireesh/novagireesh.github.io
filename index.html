@@ -239,10 +239,10 @@
       <span class="label">Projects</span>
       <h1>Gireesh Mandiya</h1>
       <p class="role">Software Development Engineer</p>
-      <p class="intro">I build full-stack business software for manufacturing and export companies with HTML, CSS, JavaScript, Python, FastAPI and SQL, using AI-assisted development. Two of these applications are in use at three companies today, and a third tool emails their buyers every day.</p>
+      <p class="intro">I build full-stack business software for manufacturing and export companies with HTML, CSS, JavaScript, Python, FastAPI and SQL, using AI-assisted development. Two of these applications are in use at three manufacturing and export companies, and a third tool runs daily buyer email outreach.</p>
     </div>
     <div class="tb-side">
-      <div class="cell"><span class="label">Based in</span><span class="v">Jaipur, Rajasthan, India</span></div>
+      <div class="cell"><span class="label">Based in</span><span class="v">Jaipur, India</span></div>
       <div class="cell">
         <span class="label">Email</span>
         <span class="v" id="email">gireeshmandiya06@gmail.com</span>
@@ -381,14 +381,14 @@
           </div>
           <p class="lede">A full-stack task and project manager with an AI quick-add: type a task in plain English and it becomes a structured record.</p>
           <ul class="feats">
-            <li>Relational backend for users, projects and tasks with SQLAlchemy models, Pydantic validation and REST endpoints.</li>
-            <li>Insertion sort, binary search and linear search implemented from scratch power the sort and search endpoints; 13 automated test cases pass, and a benchmark compares comparison counts.</li>
-            <li>AI quick-add sends a system/user prompt to the Claude API when enabled and falls back to a rule-based parser that needs no API key; results are validated with Pydantic before saving.</li>
-            <li>Request-timing middleware, CORS setup, and a JavaScript dashboard that uses the Fetch API and caches in localStorage.</li>
+            <li>JavaScript dashboard with DOM rendering, Fetch API, localStorage cache, client-side validation and responsive breakpoints, wired to 15 REST endpoints over 3 related tables.</li>
+            <li>Relational backend with Pydantic validation, request-timing middleware and 404/422 error responses.</li>
+            <li>Implemented insertion sort, binary search and linear search from scratch to power the sort and search endpoints; 13 automated test cases pass, and a benchmark compares comparison counts.</li>
+            <li>AI quick-add sends a system/user prompt to the Claude API when enabled and falls back to a rule-based parser with no API key; output is validated with Pydantic before it is saved.</li>
           </ul>
         </div>
         <aside class="spec">
-          <div class="cell"><span class="label">Stack</span><div class="chips"><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">SQLAlchemy</span><span class="chip">Pydantic</span><span class="chip">SQLite</span><span class="chip">JavaScript</span></div></div>
+          <div class="cell"><span class="label">Stack</span><div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">SQLAlchemy</span><span class="chip">SQLite</span></div></div>
           <div class="cell"><span class="label">Size</span><span class="v">15 REST endpoints · 3 related tables</span></div>
           <div class="cell"><span class="label">Built</span><span class="v">August 2026</span></div>
           <div class="cell"><span class="label">Code</span><a class="v" href="https://github.com/novagireesh/taskflow">taskflow</a></div>
@@ -407,17 +407,12 @@
 
   <section aria-labelledby="also-h">
     <div class="sec-head"><span class="label">Sheet 2</span><h2 id="also-h">Also built</h2></div>
-    <div class="minor">
+    <div class="minor" style="grid-template-columns: 1fr">
       <article class="mcard">
-        <span class="label">NOVA TECHISM · Aug 2026</span>
+        <span class="label">NOVA TECHISM · Scheduled daily since Aug 2026</span>
         <h3>Smart Email Automation Software</h3>
-        <p>A Python script scheduled to run every day. It emails the company profile and catalogue PDFs to a 662-buyer list, up to 20 a day, and contacts each buyer again after 30 days without duplicates. It has sent 982 emails since August 2026, 97% of them successfully.</p>
-        <div class="chips"><span class="chip">Python</span><span class="chip">SMTP</span><span class="chip">CSV</span><span class="chip">Task Scheduler</span></div>
-      </article>
-      <article class="mcard">
-        <span class="label">Python · FastAPI · SQLite</span>
-        <h3>Catalogue Studio and Product Radar</h3>
-        <p>Turns product page URLs into reviewed data and an editable two-slide-per-product PowerPoint catalogue. Product Radar researches brand websites daily, scores popular products and tracks price and stock changes.</p>
+        <p>Emails catalogue and company profile PDFs to a 662-buyer list and re-contacts each buyer after 30 days without duplicates. It has sent 982 emails at a 97% success rate.</p>
+        <div class="chips"><span class="chip">Python</span><span class="chip">SMTP</span><span class="chip">CSV</span></div>
       </article>
     </div>
   </section>
